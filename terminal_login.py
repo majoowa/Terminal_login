@@ -22,3 +22,7 @@ def sign_up():
     print("Enter your sign up details:\nLogin:")
     print("Password:")
     print("Confirm password:")
+
+def user_profile():
+    clear_console()
+    print("What do we do now?\n1. Log out\n2. Delete account")
