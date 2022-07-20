@@ -16,3 +16,9 @@ def log_in():
     clear_console()
     print("Enter your login details:\nLog in:")
     print("Password:")
+
+def sign_up():
+    clear_console()
+    print("Enter your sign up details:\nLogin:")
+    print("Password:")
+    print("Confirm password:")
