@@ -11,3 +11,8 @@ def clear_console():
 def menu():
     clear_console()
     print("Hello, what do you want to do? Choose one option:\n1. Log in\n2. Sign up\n3. Exit")
+
+def log_in():
+    clear_console()
+    print("Enter your login details:\nLog in:")
+    print("Password:")
